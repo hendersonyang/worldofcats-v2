@@ -1,0 +1,19 @@
+{
+    "nfts": [
+        {
+            "image": "https://i.imgur.com/PG1L2ZL.png",
+            "href": "https://wax.atomichub.io/market?collection_name=worldsofcats&schema_name=cats&template_id=290697",
+            "title": "Card #1 Magical Cat"
+        },
+        {
+            "image": "https://i.imgur.com/PG1L2ZL.png",
+            "href": "https://wax.atomichub.io/market?collection_name=worldsofcats&schema_name=cats&template_id=290697",
+            "title": "Another one?"
+        },
+        {
+            "image": "https://i.imgur.com/PG1L2ZL.png",
+            "href": "https://wax.atomichub.io/market?collection_name=worldsofcats&schema_name=cats&template_id=290697",
+            "title": "The same one again"
+        }
+    ]
+}

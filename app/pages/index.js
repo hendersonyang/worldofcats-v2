@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { useEffect } from 'react'
+import {nfts} from './config/cards.json'
 
 export default function Home() {
   useEffect(() =>{
@@ -41,21 +42,13 @@ export default function Home() {
     <h1><span className="blue"><noscript>Cute</noscript></span> 😺 themed NFTs.</h1>
     <h2>EXPLORE ALL NFTS</h2>
     <div className="grid">
-        <a href="https://wax.atomichub.io/market?collection_name=worldsofcats&schema_name=cats&template_id=290697"
+        {nfts.map((i, b) => {
+            <a href={i.href}
             className="card" target="_blank" rel="noreferrer">
-            <img src="https://i.imgur.com/PG1L2ZL.png" width="200px" />
-            <h2>Card #1 Magical Cat</h2>
-        </a>
-        <a href="https://wax.atomichub.io/market?collection_name=worldsofcats&schema_name=cats&template_id=290697"
-            className="card" target="_blank" rel="noreferrer">
-            <img src="https://i.imgur.com/PG1L2ZL.png" width="200px" />
-            <h2>Another one?</h2>
-        </a>
-        <a href="https://wax.atomichub.io/market?collection_name=worldsofcats&schema_name=cats&template_id=290697"
-            className="card" target="_blank" rel="noreferrer">
-            <img src="https://i.imgur.com/PG1L2ZL.png" width="200px" />
-            <h2>The same one again</h2>
-        </a>
+                <img src={i.image} width="200px" />
+                <h2>{i.title}</h2>
+            </a>
+        })}
     </div>
 </body>
     </div>
