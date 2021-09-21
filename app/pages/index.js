@@ -42,17 +42,17 @@ export default function Home() {
     <h2>EXPLORE ALL NFTS</h2>
     <div className="grid">
         <a href="https://wax.atomichub.io/market?collection_name=worldsofcats&schema_name=cats&template_id=290697"
-            className="card" target="_blank">
+            className="card" target="_blank" rel="noreferrer">
             <img src="https://i.imgur.com/PG1L2ZL.png" width="200px" />
             <h2>Card #1 Magical Cat</h2>
         </a>
         <a href="https://wax.atomichub.io/market?collection_name=worldsofcats&schema_name=cats&template_id=290697"
-            className="card" target="_blank">
+            className="card" target="_blank" rel="noreferrer">
             <img src="https://i.imgur.com/PG1L2ZL.png" width="200px" />
             <h2>Another one?</h2>
         </a>
         <a href="https://wax.atomichub.io/market?collection_name=worldsofcats&schema_name=cats&template_id=290697"
-            className="card" target="_blank">
+            className="card" target="_blank" rel="noreferrer">
             <img src="https://i.imgur.com/PG1L2ZL.png" width="200px" />
             <h2>The same one again</h2>
         </a>
