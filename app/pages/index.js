@@ -21,7 +21,7 @@ export default function Home() {
   })
   },[])
   return (
-    <div className={styles.container}>
+    <div>
 
 <Head>
     <title>World Of Cats</title>
@@ -37,8 +37,6 @@ export default function Home() {
     <meta property="twitter:description" content="Check out our cat-themed NFT series." />
     <meta name="description" content="Check out our cat-themed NFT series." />
 </Head>
-
-<body>
     <h1><span className="blue"><noscript>Cute</noscript></span> 😺 themed NFTs.</h1>
     <h2>EXPLORE ALL NFTS</h2>
     <div className="grid">
@@ -50,7 +48,6 @@ export default function Home() {
             </a>
         })}
     </div>
-</body>
     </div>
   )
 }
