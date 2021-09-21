@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { useEffect } from 'react'
-import {nfts} from './config/cards.json'
+import cards from './config/cards.json'
 
 export default function Home() {
   useEffect(() =>{
@@ -42,7 +42,7 @@ export default function Home() {
     <h1><span className="blue"><noscript>Cute</noscript></span> 😺 themed NFTs.</h1>
     <h2>EXPLORE ALL NFTS</h2>
     <div className="grid">
-        {nfts.map((i, b) => {
+        {cards.nfts.map((i, b) => {
             <a href={i.href}
             className="card" target="_blank" rel="noreferrer">
                 <img src={i.image} width="200px" />
