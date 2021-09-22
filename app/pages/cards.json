@@ -3,17 +3,20 @@
         {
             "image": "https://i.imgur.com/PG1L2ZL.png",
             "href": "https://wax.atomichub.io/market?collection_name=worldsofcats&schema_name=cats&template_id=290697",
-            "title": "Card #1 Magical Cat"
+            "title": "Card #1 Magical Cat",
+            "key": 0
         },
         {
             "image": "https://i.imgur.com/PG1L2ZL.png",
             "href": "https://wax.atomichub.io/market?collection_name=worldsofcats&schema_name=cats&template_id=290697",
-            "title": "Another one?"
+            "title": "Another one?",
+            "key": 1
         },
         {
             "image": "https://i.imgur.com/PG1L2ZL.png",
             "href": "https://wax.atomichub.io/market?collection_name=worldsofcats&schema_name=cats&template_id=290697",
-            "title": "The same one again"
+            "title": "The same one again",
+            "key": 2
         }
     ]
 }

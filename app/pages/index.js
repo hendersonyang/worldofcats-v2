@@ -43,9 +43,17 @@ export default function Home() {
     <div className="grid">
         {cards.nfts.map((i, b) => (
             <a href={i.href}
-            className="card" target="_blank" rel="noreferrer" key="0">
+            className="card" style={{cursor: 'pointer'}} onClick={() => {
+                var e = document.getElementById(`anchor_${i.key}`)
+                e.style.display = 'initial'
+                e.click()
+                e.style.display = 'none'
+            }} key={i.key}>
                 <img src={i.image} width="200px" />
                 <h2>{i.title}</h2>
+                <a id={`anchor_${i.key}`} style="display:none;" href={i.href} target="_blank" rel="noreferrer">
+                    Please wait
+                </a>
             </a>
         ))}
     </div>
