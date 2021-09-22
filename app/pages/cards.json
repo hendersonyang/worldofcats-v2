@@ -1,14 +1,14 @@
 {
     "nfts": [
         {
-            "image": "https://cloudflare-ipfs.com/QmPbiYCfexFtma6aifwEhekLGJdfQZ4F9jdfxCj4xKXsNA",
+            "image": "https://cloudflare-ipfs.com/ipfs/QmPbiYCfexFtma6aifwEhekLGJdfQZ4F9jdfxCj4xKXsNA",
             "href": "https://wax.atomichub.io/market?collection_name=worldsofcats&schema_name=cats&template_id=290697",
             "title": "Card #1 Magical Cat",
             "key": 0,
             "tooltip": "Legendary - 10 Mints"
         },
         {
-            "image": "https://cloudflare-ipfs.com/QmfRTDYbFZ1dXSGaNdN8L1eXajqospRZyFB9VUMGnoqS9L",
+            "image": "https://cloudflare-ipfs.com/ipfs/QmfRTDYbFZ1dXSGaNdN8L1eXajqospRZyFB9VUMGnoqS9L",
             "href": "https://wax.atomichub.io/market?collection_name=worldsofcats&schema_name=cats&template_id=291993",
             "title": "Card #2 Warrior Cat",
             "key": 1,
