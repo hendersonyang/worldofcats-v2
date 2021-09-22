@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { useEffect } from 'react'
 import cards from './cards.json'
 import { Tooltip, IconButton } from '@material-ui/core'
-import { Reddit } from '@material-ui/icons';
+import { Reddit,Chat } from '@material-ui/icons';
 
 export default function Home() {
   useEffect(() =>{
@@ -43,9 +43,17 @@ export default function Home() {
 </Head>
     <h1><span className="blue"><noscript>Cute</noscript></span> 😺 themed NFTs.</h1>
     {/*<div className="grid">*/}
+    <Tooltip title="Subreddit">
       <IconButton href="https://www.reddit.com/r/worldofcats" target="_blank" rel="noreferrer" style={{color: 'white'}}>
         <Reddit />
       </IconButton>
+      </Tooltip>
+
+      <Tooltip title="Discord">
+      <IconButton href="https://discord.gg/jUmExFss9j" target="_blank" rel="noreferrer" style={{color: 'white'}}>
+        <Chat />
+      </IconButton>
+      </Tooltip>
     {/*</div>*/}
     <h2>EXPLORE ALL NFTS</h2>
     <div className="grid">
