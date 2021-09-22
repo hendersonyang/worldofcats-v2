@@ -32,7 +32,7 @@ export default function Home() {
   setTimeout(() => {
     document.getElementById('loading').style.display = 'none'
     document.getElementById('container').style.display = 'initial'
-  }, 4000)
+  }, 3000)
   console.log(cards)
   },[])
   return (
