@@ -43,7 +43,7 @@ export default function Home() {
 </Head>
     <h1><span className="blue"><noscript>Cute</noscript></span> 😺 themed NFTs.</h1>
     <div className="grid">
-      <IconButton href="https://www.reddit.com/r/worldofcats" target="_blank" rel="noreferrer">
+      <IconButton href="https://www.reddit.com/r/worldofcats" target="_blank" rel="noreferrer" style={{color: 'white'}}>
         <Reddit />
       </IconButton>
     </div>
