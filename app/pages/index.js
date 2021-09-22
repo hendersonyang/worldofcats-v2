@@ -2,7 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { useEffect } from 'react'
 import cards from './cards.json'
-import Tooltip from '@material-ui/core/Tooltip'
+import { Tooltip, IconButton } from '@material-ui/core'
+import { Reddit } from '@material-ui/icons';
 
 export default function Home() {
   useEffect(() =>{
@@ -41,6 +42,11 @@ export default function Home() {
     <link rel="icon" href="https://emojicdn.elk.sh/😺?style=twitter" />
 </Head>
     <h1><span className="blue"><noscript>Cute</noscript></span> 😺 themed NFTs.</h1>
+    <div className="grid">
+      <IconButton href="https://www.reddit.com/r/worldofcats" target="_blank" rel="noreferrer">
+        <Reddit />
+      </IconButton>
+    </div>
     <h2>EXPLORE ALL NFTS</h2>
     <div className="grid">
         {cards.nfts.map((i, b) => (
