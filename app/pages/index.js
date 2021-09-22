@@ -37,7 +37,7 @@ export default function Home() {
     <meta property="og:description" content="Check out our cat-themed NFT series." />
     <meta property="twitter:description" content="Check out our cat-themed NFT series." />
     <meta name="description" content="Check out our cat-themed NFT series." />
-    <link rel="icon" href="https://emojiapi.dev/api/v1/cat/512.png" />
+    <link rel="icon" href="https://emojicdn.elk.sh/😺?style=twitter" />
 </Head>
     <h1><span className="blue"><noscript>Cute</noscript></span> 😺 themed NFTs.</h1>
     <h2>EXPLORE ALL NFTS</h2>
