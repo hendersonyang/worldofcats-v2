@@ -4,8 +4,16 @@ import { useEffect } from 'react'
 import cards from './cards.json'
 import { Tooltip, IconButton } from '@material-ui/core'
 import { Reddit,Chat } from '@material-ui/icons';
+import { makeStyles } from '@material-ui/core/styles';
+
+const Styles = makeStyles((theme) => ({
+  i: {
+    color: "white"
+  }
+}));
 
 export default function Home() {
+  const s = Styles()
   useEffect(() =>{
     const Typed = require('typed.js')
     var i = new Typed(".blue", {
@@ -21,6 +29,10 @@ export default function Home() {
       ],
       loop: true
   })
+  setTimeout(() => {
+    document.getElementById('loading').style.display = 'none'
+    document.getElementById('container').style.display = 'initial'
+  }, 4000)
   console.log(cards)
   },[])
   return (
@@ -41,6 +53,10 @@ export default function Home() {
     <meta name="description" content="Check out our cat-themed NFT series." />
     <link rel="icon" href="https://emojicdn.elk.sh/😺?style=twitter" />
 </Head>
+<div id="loading">
+  <Loading className={s.i} style={{margin: '5%'}}/>
+</div>
+<div id="container" style={{display: 'none'}}>
     <h1><span className="blue"><noscript>Cute</noscript></span> 😺 themed NFTs.</h1>
     {/*<div className="grid">*/}
     <Tooltip title="Subreddit">
@@ -66,6 +82,7 @@ export default function Home() {
             </a>
             </Tooltip>
         ))}
+    </div>
     </div>
     </div>
   )
