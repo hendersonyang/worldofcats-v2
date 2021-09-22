@@ -54,7 +54,9 @@ export default function Home() {
     <link rel="icon" href="https://emojicdn.elk.sh/😺?style=twitter" />
 </Head>
 <div id="loading">
+  <center>
   <Loading className={s.i} style={{margin: '5%'}}/>
+  </center>
 </div>
 <div id="container" style={{display: 'none'}}>
     <h1><span className="blue"><noscript>Cute</noscript></span> 😺 themed NFTs.</h1>
