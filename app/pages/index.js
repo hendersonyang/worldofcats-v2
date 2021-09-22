@@ -47,7 +47,7 @@ export default function Home() {
                 e.style.display = 'initial'
                 e.click()
                 e.style.display = 'none'
-            }} key={i.key}>
+            }} key={i.key.toString()}>
                 <img src={i.image} width="200px" />
                 <h2>{i.title}</h2>
                 <a id={`anchor_${i.key}`} style={{display:"none"}} href={i.href} target="_blank" rel="noreferrer">
