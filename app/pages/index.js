@@ -19,6 +19,7 @@ export default function Home() {
       ],
       loop: true
   })
+  console.log(cards)
   },[])
   return (
     <div>
