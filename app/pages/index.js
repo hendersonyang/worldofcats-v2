@@ -2,8 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { useEffect } from 'react'
 import cards from './cards.json'
-import { Tooltip, IconButton } from '@material-ui/core'
-import { Reddit,Chat } from '@material-ui/icons';
+import { Tooltip, IconButton, CircularProgress } from '@material-ui/core'
+import { Reddit, Chat } from '@material-ui/icons';
 import { makeStyles } from '@material-ui/core/styles';
 
 const Styles = makeStyles((theme) => ({
@@ -55,7 +55,7 @@ export default function Home() {
 </Head>
 <div id="loading">
   <center>
-  <Loading className={s.i} style={{margin: '5%'}}/>
+  <CircularProgress className={s.i} style={{margin: '5%'}}/>
   </center>
 </div>
 <div id="container" style={{display: 'none'}}>
