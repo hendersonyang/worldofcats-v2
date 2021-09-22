@@ -42,8 +42,7 @@ export default function Home() {
     <h2>EXPLORE ALL NFTS</h2>
     <div className="grid">
         {cards.nfts.map((i, b) => (
-            <a href={i.href}
-            className="card" style={{cursor: 'pointer'}} onClick={() => {
+            <a className="card" style={{cursor: 'pointer'}} onClick={() => {
                 var e = document.getElementById(`anchor_${i.key}`)
                 e.style.display = 'initial'
                 e.click()
