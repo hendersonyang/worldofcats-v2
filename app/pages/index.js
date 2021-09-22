@@ -44,11 +44,13 @@ export default function Home() {
     <h2>EXPLORE ALL NFTS</h2>
     <div className="grid">
         {cards.nfts.map((i, b) => (
+          <Tooltip key={i.key} title={i.tooltip || i.title}>
             <a className="card" style={{cursor: 'pointer'}} href={i.href} target="_blank" rel="noreferrer"
              key={i.key.toString()}>
                 <img src={i.image} width="200px" />
                 <h2>{i.title}</h2>
             </a>
+            </Tooltip>
         ))}
     </div>
     </div>
