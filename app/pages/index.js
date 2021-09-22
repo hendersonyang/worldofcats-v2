@@ -43,7 +43,7 @@ export default function Home() {
     <div className="grid">
         {cards.nfts.map((i, b) => (
             <a href={i.href}
-            className="card" target="_blank" rel="noreferrer">
+            className="card" target="_blank" rel="noreferrer" key="0">
                 <img src={i.image} width="200px" />
                 <h2>{i.title}</h2>
             </a>
