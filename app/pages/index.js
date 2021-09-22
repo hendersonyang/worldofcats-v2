@@ -41,13 +41,13 @@ export default function Home() {
     <h1><span className="blue"><noscript>Cute</noscript></span> 😺 themed NFTs.</h1>
     <h2>EXPLORE ALL NFTS</h2>
     <div className="grid">
-        {cards.nfts.map((i, b) => {
+        {cards.nfts.map((i, b) => (
             <a href={i.href}
             className="card" target="_blank" rel="noreferrer">
                 <img src={i.image} width="200px" />
                 <h2>{i.title}</h2>
             </a>
-        })}
+        ))}
     </div>
     </div>
   )
