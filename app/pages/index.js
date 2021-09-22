@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { useEffect } from 'react'
-import cards from './config/cards.json'
+import cards from './cards.json'
 
 export default function Home() {
   useEffect(() =>{
