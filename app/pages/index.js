@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { useEffect } from 'react'
 import cards from './cards.json'
+import Tooltip from '@material-ui/core/Tooltip'
 
 export default function Home() {
   useEffect(() =>{
