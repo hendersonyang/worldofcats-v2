@@ -42,11 +42,11 @@ export default function Home() {
     <link rel="icon" href="https://emojicdn.elk.sh/😺?style=twitter" />
 </Head>
     <h1><span className="blue"><noscript>Cute</noscript></span> 😺 themed NFTs.</h1>
-    <div className="grid">
+    {/*<div className="grid">*/}
       <IconButton href="https://www.reddit.com/r/worldofcats" target="_blank" rel="noreferrer" style={{color: 'white'}}>
         <Reddit />
       </IconButton>
-    </div>
+    {/*</div>*/}
     <h2>EXPLORE ALL NFTS</h2>
     <div className="grid">
         {cards.nfts.map((i, b) => (
