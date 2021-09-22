@@ -43,10 +43,12 @@ export default function Home() {
     <div className="grid">
         {cards.nfts.map((i, b) => (
             <a className="card" style={{cursor: 'pointer'}} onClick={() => {
-                var e = document.getElementById(`anchor_${i.key}`)
-                e.style.display = 'initial'
-                e.click()
-                e.style.display = 'none'
+                if (document) {
+                    var e = document.getElementById(`anchor_${i.key}`)
+                    e.style.display = 'initial'
+                    e.click()
+                    e.style.display = 'none'
+                } else return
             }} key={i.key.toString()}>
                 <img src={i.image} width="200px" />
                 <h2>{i.title}</h2>
