@@ -13,6 +13,13 @@
             "title": "Card #2 Warrior Cat",
             "key": 1,
             "tooltip": "Rare - 100 Mints"
+        },
+        {
+            "image": "https://cloudflare-ipfs.com/ipfs/QmZVfmdz55c3w3aoWzyaUBwYQsaYA8zT35gHQRNTjU6goH",
+            "href": "https://wax.atomichub.io/market?collection_name=worldsofcats&schema_name=cats&template_id=294690",
+            "title": "Card #3 NFT Cat",
+            "key": 1,
+            "tooltip": "Epic - 50 Mints"
         }
     ]
 }
