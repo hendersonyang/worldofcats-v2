@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { useEffect } from 'react'
 import cards from './cards.json'
 import { Tooltip, IconButton, CircularProgress } from '@material-ui/core'
-import { Reddit, Chat } from '@material-ui/icons';
+import { Reddit, Chat, Forum, Telegram } from '@material-ui/icons';
 import { makeStyles } from '@material-ui/core/styles';
 
 const Styles = makeStyles((theme) => ({
@@ -61,15 +61,19 @@ export default function Home() {
       <div id="container" style={{ display: 'none' }}>
         <h1><span className="blue"><noscript>Cute</noscript></span> 😺 themed NFTs.</h1>
         {/*<div className="grid">*/}
+        <Tooltip title="Discord">
+          <IconButton href="https://discord.gg/jUmExFss9j" target="_blank" rel="noreferrer" style={{ color: 'white' }}>
+            <Forum />
+          </IconButton>
+        </Tooltip>
         <Tooltip title="Subreddit">
-          <IconButton href="https://www.reddit.com/r/worldofcats" target="_blank" rel="noreferrer" style={{ color: 'white' }}>
+          <IconButton href="https://www.reddit.com/r/worldsofcats" target="_blank" rel="noreferrer" style={{ color: 'white' }}>
             <Reddit />
           </IconButton>
         </Tooltip>
-
-        <Tooltip title="Discord">
-          <IconButton href="https://discord.gg/jUmExFss9j" target="_blank" rel="noreferrer" style={{ color: 'white' }}>
-            <Chat />
+        <Tooltip title="Telegram">
+          <IconButton href="https://t.me/worldsofcats" target="_blank" rel="noreferrer" style={{ color: 'white' }}>
+            <Telegram />
           </IconButton>
         </Tooltip>
         {/*</div>*/}
