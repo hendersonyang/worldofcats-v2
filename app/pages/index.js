@@ -84,7 +84,7 @@ export default function Home() {
               <a className="card" style={{ cursor: 'pointer' }} href={i.href} target="_blank" rel="noreferrer"
                 key={i.key.toString()}>
                 <img src={i.image} width="200px" />
-                <h2>{i.title}</h2>
+                <h2>{i.name}<br></br>Card #{i.id}</h2>
               </a>
             </Tooltip>
           ))}
