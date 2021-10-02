@@ -23,6 +23,14 @@
             "id": "3",
             "key": 2,
             "tooltip": "Epic - 50 Mints"
+        },
+        {
+            "image": "https://cloudflare-ipfs.com/ipfs/QmcVhd5pp6EgUAsG2ZQmdQMHxTV6BZk6Ds8DL7fCS65tEV",
+            "href": "https://wax.atomichub.io/market?collection_name=worldsofcats&schema_name=cats&template_id=313736",
+            "name": "Ghost Cat",
+            "id": "4",
+            "key": 3,
+            "tooltip": "Rare - 100 Mints"
         }
     ]
 }

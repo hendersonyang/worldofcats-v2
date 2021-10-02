@@ -42,6 +42,7 @@ export default function Home() {
         <title>World Of Cats</title>
         <meta charset="UTF-8" />
         <meta property="og:type" content="website" />
+        <meta property="og:color" content="#3b96d9" />
         <meta property="twitter:card" content="summary_large_image" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta property="og:site_name" content="World Of Cats" />
