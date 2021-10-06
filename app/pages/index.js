@@ -57,6 +57,7 @@ export default function Home() {
       <div id="loading">
         <center>
           <CircularProgress className={s.i} style={{ margin: '5%' }} />
+          <h2 id="loadingtext">Minting cats...</h2>
         </center>
       </div>
       <div id="container" style={{ display: 'none' }}>
@@ -85,11 +86,13 @@ export default function Home() {
               <a className="card" style={{ cursor: 'pointer' }} href={i.href} target="_blank" rel="noreferrer"
                 key={i.key.toString()}>
                 <img src={i.image} width="200px" />
-                <h2>{i.name}<br></br>Card #{i.id}</h2>
+                <h2>{i.name}<br/>Card #{i.id}</h2>
               </a>
             </Tooltip>
           ))}
         </div>
+        <br/>
+        <footer>© 2021 All Rights Reserved | Henderson Y.<br/>Inquiries: nfts@magicalcat.xyz</footer>
       </div>
     </div>
   )
