@@ -32,7 +32,7 @@ export default function Home() {
     setTimeout(() => {
       document.getElementById('loading').style.display = 'none'
       document.getElementById('container').style.display = 'initial'
-    }, 3000)
+    }, 2000)
     console.log(cards)
   }, [])
   return (
@@ -91,6 +91,9 @@ export default function Home() {
             </Tooltip>
           ))}
         </div>
+        <br/>
+        <h2>About the creator:</h2>
+        <h4>Hello! My name is Henderson aka Magical Cat and I am an aspiring cat lover and developer. I am into crypto, NFTs, graphic designs, bots and much more! You can always contact me through Discord (Magical Cat#0548), Email (nfts@magicalcat.xyz) and Telegram (t.me/magicalcat) for anything!</h4>
         <br/>
         <footer>© 2021 All Rights Reserved | Henderson Y.<br/>Inquiries: nfts@magicalcat.xyz</footer>
       </div>
