@@ -42,7 +42,7 @@ export default function Home() {
         <title>World Of Cats</title>
         <meta charset="UTF-8" />
         <meta property="og:type" content="website" />
-        <meta property="og:color" content="#3b96d9" />
+        <meta property="theme-color" content="#3b96d9" />
         <meta property="twitter:card" content="summary_large_image" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta property="og:site_name" content="World Of Cats" />
@@ -52,7 +52,8 @@ export default function Home() {
         <meta property="og:description" content="Check out our cat-themed NFT series." />
         <meta property="twitter:description" content="Check out our cat-themed NFT series." />
         <meta name="description" content="Check out our cat-themed NFT series." />
-        <link rel="icon" href="https://emojicdn.elk.sh/😺?style=twitter" />
+        <meta name="og:image" content="logo.png"/>
+        <link rel="icon" href="logo.png" />
       </Head>
       <div id="loading">
         <center>
