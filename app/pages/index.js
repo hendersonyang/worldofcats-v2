@@ -52,8 +52,8 @@ export default function Home() {
         <meta property="og:description" content="Check out our cat-themed NFT series." />
         <meta property="twitter:description" content="Check out our cat-themed NFT series." />
         <meta name="description" content="Check out our cat-themed NFT series." />
-        <meta name="og:image" content="logo.png"/>
-        <link rel="icon" href="logo.png" />
+        <meta name="og:image" content="https://nfts.magicalcat.xyz/logo.png"/>
+        <link rel="icon" href="https://nfts.magicalcat.xyz/logo.png" />
       </Head>
       <div id="loading">
         <center>
