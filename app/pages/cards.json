@@ -39,6 +39,14 @@
             "id": "5",
             "key": 4,
             "tooltip": "Epic - 50 Mints"
+        },
+        {
+            "image": "https://cloudflare-ipfs.com/ipfs/QmQPNWA5w3BZeFjZ4tcJgFyZhvE9u2BzvZcYmKUfeKmQTa",
+            "href": "https://wax.atomichub.io/market?collection_name=worldsofcats&schema_name=cats&template_id=341556",
+            "name": "Candy Cat",
+            "id": "6",
+            "key": 5,
+            "tooltip": "Legendary - 10 Mints"
         }
     ]
 }
