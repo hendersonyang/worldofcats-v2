@@ -62,7 +62,7 @@ export default function Home() {
         </center>
       </div>
       <div id="container" style={{ display: 'none' }}>
-        <h1><span className="blue"><noscript>Cute</noscript></span> <img src="cat.png" class="emoji" height="100px" alt="cat"/> themed NFTs.</h1>
+        <h1><span className="blue"><noscript>Cute</noscript></span> <img src="cat.png" className="emoji" height="100px" alt="cat"/> themed NFTs.</h1>
         {/*<div className="grid">*/}
         <Tooltip title="Discord">
           <IconButton href="https://discord.gg/jUmExFss9j" target="_blank" rel="noreferrer" style={{ color: 'white' }}>
