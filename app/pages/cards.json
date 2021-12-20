@@ -47,6 +47,14 @@
             "id": "6",
             "key": 5,
             "tooltip": "Legendary - 10 Mints"
+        },
+        {
+            "image": "https://cloudflare-ipfs.com/ipfs/QmbrqwE51AVmwr2DgDx29frH1G9JLr8kbbz18mJxJLVao6",
+            "href": "https://wax.atomichub.io/market?collection_name=worldsofcats&schema_name=cats&template_id=400793",
+            "name": "Santa Cat",
+            "id": "7",
+            "key": 6,
+            "tooltip": "Epic - 50 Mints"
         }
     ]
 }
