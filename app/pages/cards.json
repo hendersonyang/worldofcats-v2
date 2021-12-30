@@ -1,7 +1,6 @@
 {
     "nfts": [
         {
-            "image": "https://cloudflare-ipfs.com/ipfs/QmPbiYCfexFtma6aifwEhekLGJdfQZ4F9jdfxCj4xKXsNA",
             "href": "https://wax.atomichub.io/market?collection_name=worldsofcats&schema_name=cats&template_id=290697",
             "name": "Magical Cat",
             "id": "1",
@@ -9,7 +8,6 @@
             "tooltip": "Legendary - 10 Mints"
         },
         {
-            "image": "https://cloudflare-ipfs.com/ipfs/QmfRTDYbFZ1dXSGaNdN8L1eXajqospRZyFB9VUMGnoqS9L",
             "href": "https://wax.atomichub.io/market?collection_name=worldsofcats&schema_name=cats&template_id=291993",
             "name": "Warrior Cat",
             "id": "2",
@@ -17,7 +15,6 @@
             "tooltip": "Rare - 100 Mints"
         },
         {
-            "image": "https://cloudflare-ipfs.com/ipfs/QmZVfmdz55c3w3aoWzyaUBwYQsaYA8zT35gHQRNTjU6goH",
             "href": "https://wax.atomichub.io/market?collection_name=worldsofcats&schema_name=cats&template_id=294690",
             "name": "NFT Cat",
             "id": "3",
@@ -25,7 +22,6 @@
             "tooltip": "Epic - 50 Mints"
         },
         {
-            "image": "https://cloudflare-ipfs.com/ipfs/QmcVhd5pp6EgUAsG2ZQmdQMHxTV6BZk6Ds8DL7fCS65tEV",
             "href": "https://wax.atomichub.io/market?collection_name=worldsofcats&schema_name=cats&template_id=313736",
             "name": "Ghost Cat",
             "id": "4",
@@ -33,7 +29,6 @@
             "tooltip": "Rare - 100 Mints"
         },
         {
-            "image": "https://cloudflare-ipfs.com/ipfs/QmRxzLFxNgZdKuzdKyv9WSLExtzyVRRt8W2gWrfVydPwCv",
             "href": "https://wax.atomichub.io/market?collection_name=worldsofcats&schema_name=cats&template_id=340112",
             "name": "Sea Cat",
             "id": "5",
@@ -41,7 +36,6 @@
             "tooltip": "Epic - 50 Mints"
         },
         {
-            "image": "https://cloudflare-ipfs.com/ipfs/QmQPNWA5w3BZeFjZ4tcJgFyZhvE9u2BzvZcYmKUfeKmQTa",
             "href": "https://wax.atomichub.io/market?collection_name=worldsofcats&schema_name=cats&template_id=341556",
             "name": "Candy Cat",
             "id": "6",
@@ -49,7 +43,6 @@
             "tooltip": "Legendary - 10 Mints"
         },
         {
-            "image": "https://cloudflare-ipfs.com/ipfs/QmbrqwE51AVmwr2DgDx29frH1G9JLr8kbbz18mJxJLVao6",
             "href": "https://wax.atomichub.io/market?collection_name=worldsofcats&schema_name=cats&template_id=400793",
             "name": "Santa Cat",
             "id": "7",
