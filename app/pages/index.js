@@ -86,7 +86,7 @@ export default function Home() {
             <Tooltip key={i.key} title={i.tooltip || i.title}>
               <a className="card" style={{ cursor: 'pointer' }} href={i.href} target="_blank" rel="noreferrer"
                 key={i.key.toString()}>
-                <img src={`nfts/NFT Card #${i.id}/Front.png`} width="200px" />
+                <img src={`nfts/card${i.id}/Front.png`} width="200px" />
                 <h2>{i.name}<br/>Card #{i.id}</h2>
               </a>
             </Tooltip>
